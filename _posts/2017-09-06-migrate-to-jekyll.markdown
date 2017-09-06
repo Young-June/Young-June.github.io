@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Migrate to Jekyll!"
+title:  "Jekyll 설정법"
 date:   2017-09-06 19:51:41 +0900
 categories: jekyll update
 ---
