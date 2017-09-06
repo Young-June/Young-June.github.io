@@ -1,0 +1,45 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: 영준이의 블로그에 오신 것을 환영합니다.
+email: youngjune.woo@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  여러가지 공부를 하다가 오늘(2017.09.06)부로 블로그를 GitHub Pages 로 옮기기로 하였습니다.
+  그리고, Jekyll을 이용해서 작성을 해보려고 합니다.
+  주고 올릴 내용은 지금 공부중인 것들에 대한 것들을 정리하는 내용으로 작성할 예정입니다.
+
+  ** 이글도 Jekyll로 처음 작성하는 것이어서 블로그 자체 모양도 한동안은 계속 변경이 될 것입니다. **
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: youngjune72
+github_username:  Young-June
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
