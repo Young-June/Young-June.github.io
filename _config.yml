@@ -23,7 +23,7 @@ description: > # this means to ignore newlines until "baseurl:"
   ** 이글도 Jekyll로 처음 작성하는 것이어서 블로그 자체 모양도 한동안은 계속 변경이 될 것입니다. **
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: youngjune72
+twitter_username: youngjunewoo
 github_username:  Young-June
 
 # Build settings
