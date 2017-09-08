@@ -1,0 +1,24 @@
+
+
+
+TensorFlow
+1. Installation of Python 3.x
+https://www.python.org/downloads/mac-osx/
+2. set up environment
+https://www.tensorflow.org/install/install_mac
+
+in .bash_profile
+# for TensorFlow
+function TensorFlow {source ~/tensorflow/bin/activate;}
+
+
+linear regression
+
+Logistic Regression
+
+Softmax Regression
+
+
+
+[Making Blog with GitHub Pages & JekyII]
+https://xho95.github.io/blog/github/jekyll/git/2016/01/11/Make-a-blog-with-Jekyll.html

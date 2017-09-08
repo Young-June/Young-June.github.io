@@ -1,0 +1,12 @@
+
+
+install the Ruby 2.4
+http://theeye.pe.kr/archives/1747
+http://blog.saltfactory.net/jekyll/upgrade-github-pages-dependency-versions.html
+
+rvm 2.4 install
+rvm use 2.4.0 --default
+
+install bundle
+
+gem bundle install
