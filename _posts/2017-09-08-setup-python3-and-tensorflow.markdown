@@ -31,10 +31,10 @@ ImportError: No module named tensorflow
 
 {% endhighlight %}
 
-python을 framework 으로 install 을 해야한다고 하네요.
-그런데, virtualenv 환경에서 python3를 framework으로 동작하게 설정하는 방법을 정확하게 설명한 곳을 찾기는 힘들어서 그냥 다시 tensorflow 를 native app 으로 install 했습니다.
-그리고, python3 는 아래와 같은 방식으로 framework 으로 설치를 했습니다.
+python을 framework으로 install을 해야한다고 하네요. 그래서 python3 는 아래와 같은 방식으로 python3를 framework으로 설치를 했습니다.
 
 {% highlight python3 installation %}
 brew install python3 --framework
 {% endhighlight %}
+
+그런데, virtualenv 환경에서 python3를 framework으로 동작하게 설정하는 방법을 정확하게 설명한 곳을 찾기는 힘들어서 그냥 다시 tensorflow 를 native app 으로 install 했습니다.
