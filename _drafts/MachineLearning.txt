@@ -22,7 +22,16 @@ sigmoid function
 ReLU (Rectified Linear Unit)
 
 
+http://keunwoochoi.blogspot.kr/2016/06/andrej-karpathy.html
+
+
+http://karpathy.github.io
+
 
 
 [Making Blog with GitHub Pages & JekyII]
 https://xho95.github.io/blog/github/jekyll/git/2016/01/11/Make-a-blog-with-Jekyll.html
+
+
+
+https://www.mathsisfun.com/algebra/matrix-multiplying.html
