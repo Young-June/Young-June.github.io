@@ -35,3 +35,25 @@ https://xho95.github.io/blog/github/jekyll/git/2016/01/11/Make-a-blog-with-Jekyl
 
 
 https://www.mathsisfun.com/algebra/matrix-multiplying.html
+
+
+
+TensorFlow 연습
+
+~/GitHub/tensorflow/tensorflow/tensorflow/contrib/learn/python/learn/datasets/mnist.py
+를 보면.. MNIST 를 받기 위한 주소를 변경한 부분이 있는데, 이것 때문에 문제가 생김
+
+32 # CVDF mirror of http://yann.lecun.com/exdb/mnist/
+33 DEFAULT_SOURCE_URL = 'https://storage.googleapis.com/cvdf-datasets/mnist/'
+
+간단한 workaround는 아래와 같이 source_url에 값을 할당하는 법임.
+mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)
+mnist = input_data.read_data_sets("MNIST_data/", one_hot=True, source_url="http://yann.lecun.com/exdb/mnist/")
+
+그런데 해당 방법이 이상하게 MacOS 에서 동작하지 않았음....
+그래서 잘 생각해보니... tensorflow 도 text file 형태로 설치된 것 같아서...
+아래와 같이 설치된 tensorflow 의 mnist.py 파일을 직접 수정하였음. --> 동작함.
+vi /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py
+
+Linux 에서도 아래를 수정하면 됨.
+vi /home/june/.local/lib/python3/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py
