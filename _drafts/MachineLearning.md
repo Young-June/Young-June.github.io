@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Machine Learning 공부
-categories: MachineLearning
+categories: Machine Learning
 ---
 한글로 정리를 시작함.
 대학원 졸업하고 거의 20년 만에 다시 공부를 시작하니,

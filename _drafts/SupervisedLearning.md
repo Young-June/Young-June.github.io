@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Supervised Learning
-categories: MachineLearning
+categories: Machine Learning
 ---
 
 * Linear Regression

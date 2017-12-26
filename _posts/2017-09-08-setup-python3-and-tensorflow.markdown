@@ -38,3 +38,25 @@ brew install python3 --framework
 {% endhighlight %}
 
 그런데, virtualenv 환경에서 python3를 framework으로 동작하게 설정하는 방법을 정확하게 설명한 곳을 찾기는 힘들어서 그냥 다시 tensorflow 를 native app 으로 install 했습니다.
+
+
+
+#### TensorFlow 연습
+
+~/GitHub/tensorflow/tensorflow/tensorflow/contrib/learn/python/learn/datasets/mnist.py
+를 보면.. MNIST 를 받기 위한 주소를 변경한 부분이 있는데, 이것 때문에 문제가 생김
+
+{% highlight tensorflow %}
+32 # CVDF mirror of http://yann.lecun.com/exdb/mnist/
+33 DEFAULT_SOURCE_URL = 'https://storage.googleapis.com/cvdf-datasets/mnist/'
+{% endhighlight %}
+
+그래서 잘 생각해보니... tensorflow 도 text file 형태로 설치된 것 같아서...
+아래와 같이 설치된 tensorflow 의 mnist.py 파일을 직접 수정하였음. --> 동작함.
+
+{% highlight mnist %}
+
+vi /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py
+Linux 에서도 아래를 수정하면 됨.
+vi /home/june/.local/lib/python3/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py
+{% endhighlight %}

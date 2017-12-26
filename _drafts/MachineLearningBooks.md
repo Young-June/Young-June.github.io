@@ -2,7 +2,7 @@
 layout: post
 title:  "Machine Learning 책들"
 date:   2017-09-08 20:16:41 +0900
-categories: jekyll update
+categories: Machine Learning
 ---
 - 처음배우는 인공지능 : 개발자를 위한 인공지능 알고리즘과 인프라 기초
 - 파이썬 라이브러리를 활용한 머신러닝 : 사이킷런 핵심 개발자가 쓴 머신러닝과 데이터 과학 실무서
