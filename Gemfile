@@ -44,3 +44,9 @@ gem 'nokogiri', '1.7.2'
 gem 'rouge', '1.11.1'
 gem 'safe_yaml', '1.0.4'
 gem 'sass', '3.5.1'
+
+
+# by Young-June Woo
+#group :jekyll_plugins do
+gem 'jekyll-paginate-v2', '1.9.0'
+#end
