@@ -45,7 +45,7 @@ categories: jekyll update
 #### 기타
 - Monostate Pattern
 - Null Object Pattern
-- Mock Object Pattern (예전에 정리한 노트에 이런 패턴이 있는 데 기억이 안남. 찾아서 정리를 해야겠음)
+- Mock Object Pattern (예전에 정리한 노트에 이런 패턴이 있는 데 기억이 안남. 찾아서 정리를 해야겠음) <https://en.wikipedia.org/wiki/Mock_object>
 - DI (Dependency Injection) --> 요건 다른쪽에서 나온 이야기인데 요것도 찾아서 정리할 예정임.
 
 일단 책들을 다시 읽으면서 정리를 하는 것보다 아래 블로그가 더 정리가 잘된 것 같아서 적어놓음.
