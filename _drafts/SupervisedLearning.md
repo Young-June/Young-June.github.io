@@ -41,3 +41,26 @@ Backpropagation is a method used in artificial neural networks to calculate the 
 The backpropagation algorithm has been repeatedly rediscovered and is equivalent to automatic differentiation in reverse accumulation mode. Backpropagation requires a known, desired output for each input value—it is therefore considered to be a supervised learning method (although it is used in some unsupervised networks such as autoencoders). Backpropagation is also a generalization of the delta rule to multi-layered feedforward networks, made possible by using the chain rule to iteratively compute gradients for each layer. It is closely related to the Gauss–Newton algorithm, and is part of continuing research in neural backpropagation. Backpropagation can be used with any gradient-based optimizer, such as L-BFGS or truncated Newton[citation needed][clarification needed].
 
 Backpropagation is commonly used to train deep neural networks [1], a term used to describe neural networks with more than one hidden layer.[2]
+
+#### Recurrent Neural Network (RNN)
+
+<http://karpathy.github.io/2015/05/21/rnn-effectiveness/>
+
+기본적으로 history 에 대한 정보를 가지는 문제를 푸려고 하는 것임.\\
+예를 들어서 언어의 인식, 번역등을 context에 대한 정보가 필요함.\\
+자동 자막생성도 비슷한 것으로...\\
+어떤 단어의 뉘앙스를 파악하기 위해서는 해당 단어가 어떤 context로 사용되었는지에 대한 이해가 필요함.\\
+이에, 네트웍의 구조를 보면 n-1번째 iteration 의 ouput이 n번째 iteration의 input 으로도 들어감.
+
+여기에 그림하나 넣어두자....
+
+#### Long Short Term Memory(LSTM)
+
+<http://colah.github.io/posts/2015-08-Understanding-LSTMs/>
+
+위의 블로그에 잘 설명을 해두었는데...\\
+기본적으로 RNN의 구조에서 어떤 경우에는 n-1번째 iteration의 output보다 n-t번째 iteration의 output이 더 중요할 때도 있음.\\
+예를 들어서 번역의 경우, 바로 전의 단어보다 앞 문장의 특정 단어가 더 중요한 경우가 존재함.\\
+이런 경우를 어떻게 모델링할 것이냐에 대한 것임.
+
+자세한 분석, 설명을 추후에 추가하기로 함.
