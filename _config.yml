@@ -33,7 +33,8 @@ plugins:
   - jekyll-feed
   - jekyll-paginate-v2
 
-paginate: 5
+#paginate: 5
+per_page : 5
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
