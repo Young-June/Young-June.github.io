@@ -1,10 +1,9 @@
 source 'https://rubygems.org'
 
-#gem 'github-pages', group: :jekyll_plugins
-gem 'jekyll', '3.7.4'
+gem 'github-pages', group: :jekyll_plugins
 gem 'activesupport', '4.2.10'
 gem 'github-pages-health-check', '1.16.1'
-gem 'github-pages', '197'
+#gem 'github-pages', '197'
 gem 'html-pipeline', '2.10.0'
 gem 'jekyll-avatar', '0.6.0'
 gem 'jekyll-coffeescript', '1.1.1'
