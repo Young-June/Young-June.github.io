@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '3.5.2'
+gem 'jekyll', '3.6.3'
 gem 'activesupport', '4.2.8'
 gem 'github-pages-health-check', '1.3.5'
 gem 'github-pages', '158'
