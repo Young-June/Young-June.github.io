@@ -36,7 +36,7 @@ gem 'jekyll-theme-tactile', '0.1.1'
 gem 'jekyll-theme-time-machine', '0.1.1'
 gem 'jekyll-titles-from-headings', '0.5.1'
 gem 'jemoji', '0.10.2'
-gem 'kramdown', '1.17.0'
+gem "kramdown", ">= 2.3.0"
 gem 'liquid', '4.0.0'
 gem 'listen', '3.1.5'
 gem 'minima', '2.5.0'
