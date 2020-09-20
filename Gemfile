@@ -40,7 +40,7 @@ gem "kramdown", ">= 2.3.0"
 gem 'liquid', '4.0.0'
 gem 'listen', '3.1.5'
 gem 'minima', '2.5.0'
-gem 'nokogiri', '~> 1.8.5'
+gem "nokogiri", ">= 1.10.4"
 gem 'rouge', '2.2.1'
 gem 'safe_yaml', '1.0.5'
 gem 'sass', '3.7.3'
